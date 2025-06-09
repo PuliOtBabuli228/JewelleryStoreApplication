@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\A.ico" />
+    <None Remove="Assets\Images\kosmos.ico" />
+    <None Remove="Assets\Images\logotype.png" />
+    <None Remove="Assets\Images\prof.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Database\StoreDB.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\A.ico" />
+    <Resource Include="Assets\Images\kosmos.ico" />
+    <Resource Include="Assets\Images\logotype.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\prof.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
