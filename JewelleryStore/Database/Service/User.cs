@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace StoreDB.Service
 {
     public class User
-    {
+    {  
         [Key]
         public int UserId { get; set; }
 

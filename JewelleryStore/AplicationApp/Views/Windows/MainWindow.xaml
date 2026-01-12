@@ -13,101 +13,101 @@
         Background="#F9F8F6">
 
     <Border Margin="10"
-            Background="White"
-            CornerRadius="10"
-            BorderBrush="#DDDDDD"
-            BorderThickness="1"
-            Padding="15"
-            >
+         Background="White"
+         CornerRadius="10"
+         BorderBrush="#DDDDDD"
+         BorderThickness="1"
+         Padding="15"
+         >
         <Grid>
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="160"/>
             </Grid.ColumnDefinitions>
 
             <Image Source="/Assets/Images/logotype.png"
-                   Grid.Column="1"
-                   VerticalAlignment="Top"
-                   Margin="15,10,5,0"/>
+                Grid.Column="1"
+                VerticalAlignment="Top"
+                Margin="15,10,5,0"/>
 
             <!-- Верхняя панель с кнопками -->
             <StackPanel Orientation="Vertical"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Center"
-                        Grid.Column="1"
-                        Margin="3,0,0,20"
-                        >
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Center"
+                     Grid.Column="1"
+                     Margin="3,0,0,20"
+                     >
 
 
 
                 <Button Content="Продукты"
-                        Width="140"
-                        Height="42"
-                        Background="#D4AF37"
-                        Foreground="#2E2E2E"
-                        FontWeight="SemiBold"
-                        FontSize="14"
-                        BorderThickness="0"
-                        Cursor="Hand"
-                        Click="OpenProductClick"
-                        Margin="8,8"
-                        
-                        />
+                     Width="140"
+                     Height="42"
+                     Background="#D4AF37"
+                     Foreground="#2E2E2E"
+                     FontWeight="SemiBold"
+                     FontSize="14"
+                     BorderThickness="0"
+                     Cursor="Hand"
+                     Click="OpenProductClick"
+                     Margin="8,8"
+                     
+                     />
 
                 <Button Content="Пользователи"
-                        Width="140"
-                        Height="42"
-                        Background="#D4AF37"
-                        Foreground="#2E2E2E"
-                        FontWeight="SemiBold"
-                        FontSize="14"
-                        BorderThickness="0"
-                        Cursor="Hand"
-                        Click="OpenUserClick"
-                        Margin="8,8"
-                        
-                        />
+                     Width="140"
+                     Height="42"
+                     Background="#D4AF37"
+                     Foreground="#2E2E2E"
+                     FontWeight="SemiBold"
+                     FontSize="14"
+                     BorderThickness="0"
+                     Cursor="Hand"
+                     Click="OpenUserClick"
+                     Margin="8,8"
+                     
+                     />
 
                 <Button Content="Заказы"
-                        Width="140"
-                        Height="42"
-                        Background="#D4AF37"
-                        Foreground="#2E2E2E"
-                        FontWeight="SemiBold"
-                        FontSize="14"
-                        BorderThickness="0"
-                        Cursor="Hand"
-                        Click="OpenOrdersClick"
-                        Margin="8,8"
-                        
-                        />
+                     Width="140"
+                     Height="42"
+                     Background="#D4AF37"
+                     Foreground="#2E2E2E"
+                     FontWeight="SemiBold"
+                     FontSize="14"
+                     BorderThickness="0"
+                     Cursor="Hand"
+                     Click="OpenOrdersClick"
+                     Margin="8,8"
+                     
+                     />
                 <Button Content="Выход"
-                        Width="140"
-                        Height="42"
-                        Background="#D4AF37"
-                        Foreground="#2E2E2E"
-                        FontWeight="SemiBold"
-                        FontSize="14"
-                        BorderThickness="0"
-                        Cursor="Hand"
-                        Click="Exit_click"
-                        Margin="8,8"
-                        
-                        />
-                
+                     Width="140"
+                     Height="42"
+                     Background="#D4AF37"
+                     Foreground="#2E2E2E"
+                     FontWeight="SemiBold"
+                     FontSize="14"
+                     BorderThickness="0"
+                     Cursor="Hand"
+                     Click="Exit_click"
+                     Margin="8,8"
+                     
+                     />
+
             </StackPanel>
 
             <!-- Фрейм для отображения страниц -->
             <Border Grid.Column="0"
-                    CornerRadius="6"
-                    Background="#FAFAFA"
-                    BorderBrush="#E0E0E0"
-                    BorderThickness="1"
-                    >
+                 CornerRadius="6"
+                 Background="#FAFAFA"
+                 BorderBrush="#E0E0E0"
+                 BorderThickness="1"
+                 >
                 <Frame x:Name="MainFrame"
-                       Background="Transparent"
-                       NavigationUIVisibility="Hidden"/>
+                    Background="Transparent"
+                    NavigationUIVisibility="Hidden"/>
             </Border>
         </Grid>
     </Border>

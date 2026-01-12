@@ -72,7 +72,7 @@ namespace WPFApp.ViewsModels.ViewsModelssWindows
                 UserWindow userWindow = new UserWindow();
                 userWindow.Show();
                 Application.Current.Windows[0].Close();
-            }
+            } 
         }
     }
 
